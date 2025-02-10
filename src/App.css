@@ -1,0 +1,28 @@
+#root {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form label {
+  display: flex;
+  gap: 12px;
+}
+
+.twoColumns {
+  align-items: start;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 300px 400px;
+}
+
+.lorem {
+  overflow: auto;
+}
